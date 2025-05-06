@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medovia - Online Pharmacy</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Cart notification -->
+    <div id="cart-notification" class="cart-notification">
+        Item added to cart!
+    </div>
+
+    <div class="sidebar">
+        <div class="logo-container">
+            <img src="static/images/Logo.png" alt="Medovia Logo" class="logo">
+            <h2>MEDOVIA<sup>+</sup></h2>
+        </div>
+        <div class="menu">
+            <a href="#">📊 Dashboard</a>
+            <a href="#">📦 Orders</a>
+            <a href="#">📋 Inventory</a>
+            <a href="#">👥 Customer</a>
+            <a href="#">💰 Sales</a>
+            <a href="#">🚚 Delivery</a>
+            <a href="#">🎁 Offers</a>
+            <a href="#">🔔 Notifications</a>
+            <a href="#">⚙️ Account</a>
+            <a href="#">🚪 Logout</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <!-- Search Bar Container -->
+        <div class="search-bar">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="search-input" placeholder="Search Medicine">
+        </div>
+
+        <!-- Category filters -->
+        <div id="category-filters" class="category-filters">
+            <!-- Category buttons will come here dynamically -->
+        </div>
+        
+
+        
+
+
+        
+        <div class="categories">
+            <div>
+                <img src="static/images/Picture2.png" alt="Hard to find medicines">
+                <h3>Hard to find medicines</h3>
+            </div>
+            <div class="pressure">
+                <h3>Medical electronic Equipment</h3>
+                <img src="static/images/Picture3.png" alt="Medical electronic equipment">
+            </div>
+        </div>
+
+        <div id="product-grid" class="product-list">
+            <!-- Products will come here dynamically -->
+        </div>
+    </div>
+
+    <!-- Include the JS file at the end of the body -->
+    <script src="static/js/product-catalog.js"></script>
+</body>
+
+</html>
